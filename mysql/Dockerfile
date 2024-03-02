@@ -2,7 +2,7 @@
 FROM mysql/mysql-server:latest
 
 # Set environment variables
-ENV MYSQL_ROOT_PASSWORD=root_password
+ENV MYSQL_ROOT_PASSWORD=pass
 
 # Copy external CSV file into the image
 COPY cattle_data.csv /tmp/cattle_data.csv
